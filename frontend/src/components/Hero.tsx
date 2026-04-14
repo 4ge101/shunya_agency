@@ -1,0 +1,23 @@
+import "../styles/Hero.css";
+
+export function Hero() {
+  return (
+    <section className="hero-container">
+      <div className="animation-small-title">
+        <h3>✨ Available for new projects</h3>
+      </div>
+      <div className="hero-title">
+        <h1>
+          WHERE <span>CREATIVITY</span> MEETS TECHNICAL EXCELLENCE
+        </h1>
+      </div>
+      <div className="hero-small-title">
+        <p>
+          We are a digital agency that builds modern websites and apps. We
+          create fast, user-friendly, and reliable solutions to help businesses
+          grow online.
+        </p>
+      </div>
+    </section>
+  );
+}

@@ -1,0 +1,49 @@
+.nav-container {
+  z-index: 99;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px 20px;
+}
+
+.nav-logo {
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+nav {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.09);
+  padding: 20px 40px;
+  border: 2px solid #38393d;
+  border-radius: 40px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.talk-btn-container button {
+  font-size: 20px;
+  padding: 10px 38px;
+  background: white;
+  color: black;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: 900;
+}

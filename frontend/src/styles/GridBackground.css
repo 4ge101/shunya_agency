@@ -1,0 +1,64 @@
+.grid-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: #080c12;
+}
+
+.grid-bg__lines {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+.grid-bg__blob--tl {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: -200px;
+  left: -200px;
+  background: radial-gradient(
+    circle at 30% 30%,
+    #4f2aff 0%,
+    #1e0a6e 40%,
+    transparent 70%
+  );
+  filter: blur(80px);
+  opacity: 0.75;
+}
+
+.grid-bg__blob--br {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  bottom: -220px;
+  right: -180px;
+  background: radial-gradient(
+    circle at 70% 70%,
+    #00c2ff 0%,
+    #004d7a 40%,
+    transparent 70%
+  );
+  filter: blur(80px);
+  opacity: 0.65;
+}
+
+.grid-bg__blob--center {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 45%, #080c12 30%, transparent 70%);
+}
+
+.grid-bg__vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at 50% 50%,
+    transparent 20%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+}
