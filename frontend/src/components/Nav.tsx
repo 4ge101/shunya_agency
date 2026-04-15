@@ -5,7 +5,7 @@ export function Nav() {
   return (
     <section className="nav-container">
         <div className="nav-logo">
-            XYZ
+            SHUNYA
         </div>
         <nav>
             <ul>

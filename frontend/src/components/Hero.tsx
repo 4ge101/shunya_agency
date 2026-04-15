@@ -1,4 +1,5 @@
 import "../styles/Hero.css";
+import {Service} from "../components/Service";
 
 export function Hero() {
   return (
@@ -18,6 +19,14 @@ export function Hero() {
           grow online.
         </p>
       </div>
+      <div className="contact-btn-container">
+        <button className="contact-btn1">Start Your Project</button>
+        <button className="contact-btn2">View Showcase</button>
+      </div>
+      <div className="scroll-indicator">
+        <div className="scroll-stick"></div>
+      </div>
+            <Service />
     </section>
   );
 }

@@ -2,7 +2,7 @@
   z-index: 9;
   height: 100vh;
   position: relative;
-  top: 15em;
+  top: 8em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +38,7 @@
   }
 }
 
-.hero-small-title{
+.hero-small-title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +48,7 @@
 .hero-small-title p {
   color: #8f8e8e;
   width: 42%;
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .animation-small-title {
@@ -82,3 +82,81 @@
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
   }
 }
+
+.contact-btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.contact-btn1 {
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 24px 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-btn2{
+  color: #fff;
+  font-size: 20px;
+  border-radius: 40px;
+  padding: 24px 50px;
+  font-weight: 600;
+  background: #ffffff1f;
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,.25);
+  box-shadow: 0 8px 32px #0006;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 26%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  backdrop-filter: blur(10px);
+}
+
+.scroll-stick {
+  width: 4px;
+  height: 10px;
+  background: white;
+  border-radius: 10px;
+  margin-top: 8px;
+  animation: scrollMove 1.5s infinite;
+}
+
+@keyframes scrollMove {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+/* Service Container */
