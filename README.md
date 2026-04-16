@@ -11,8 +11,8 @@
 *Web · Mobile · AI Agents · Automation*
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-shunyaa.vercel.app-black?style=flat-square)](https://shunyaa.vercel.app)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)]()
-[![Contact](https://img.shields.io/badge/Contact-contact@shunya.tech-blue?style=flat-square)](mailto:contact@shunya.tech)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)]()
+[![Email](https://img.shields.io/badge/Email-contact%40shunya.tech-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@shunya.tech)
 
 </div>
 
@@ -67,9 +67,8 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
-'''
+
 ## Project Structure
-'''
 
 ```
 shunya-website/
@@ -102,9 +101,9 @@ npm run start
 
 Have a project in mind? Let's build it.
 
-- **Email:** ---
-- **Instagram:** [@shunya.agency](https://instagram.com/shunya.agency)
-- **Website:** [shunyaa.vercel.app](https://shunyaa.vercel.app)(underdevlopment and not accessible)
+- **Email:** contact@shunya.tech
+- **Instagram:** [@shunya](https://instagram.com/shunya)
+- **Website:** [shunyaa.vercel.app](https://shunyaa.vercel.app)
 
 ---
 
