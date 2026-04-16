@@ -1,5 +1,7 @@
 import "../styles/Hero.css";
 import { Service } from "../components/Service";
+import { Project } from "../components/Project";
+import { About } from "../components/About";
 
 export function Hero() {
   return (
@@ -29,6 +31,8 @@ export function Hero() {
         </div>
       </section>
         <Service />
+        <Project />
+        <About />
     </>
   );
 }
