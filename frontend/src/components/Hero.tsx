@@ -2,6 +2,7 @@ import "../styles/Hero.css";
 import { Service } from "../components/Service";
 import { Project } from "../components/Project";
 import { About } from "../components/About";
+import { Footer } from "./Footer";
 
 export function Hero() {
   return (
@@ -33,6 +34,7 @@ export function Hero() {
         <Service />
         <Project />
         <About />
+        <Footer />
     </>
   );
 }

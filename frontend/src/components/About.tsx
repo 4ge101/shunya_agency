@@ -18,10 +18,10 @@ export function About() {
           </div>
           <h1 className="about-heading">We are a team of digital innovators</h1>
           <p className="about-description">
-            Born in 2025, Shunya Agency was built on a single belief — that great
-            digital products change how people experience the world. We bring
-            together creative thinkers, engineers, and strategists to craft
-            experiences that are bold, purposeful, and built to last. From
+            Born in 2025, Shunya Agency was built on a single belief — that
+            great digital products change how people experience the world. We
+            bring together creative thinkers, engineers, and strategists to
+            craft experiences that are bold, purposeful, and built to last. From
             early-stage startups to established enterprises, we partner with
             visionaries who refuse to settle for ordinary.
           </p>
@@ -86,6 +86,20 @@ export function About() {
           </div>
         ))}
       </section>
+
+      <div className="big-box-container">
+        <div className="big-box">
+          <div className="big-box-title">
+            <h1>Let's Design Something Unforgettable</h1>
+          </div>
+          <div className="big-box-paragraph">
+            <p>Ready to shape your ideas into something powerful?</p>
+          </div>
+          <div className="box-btn">
+            <button>Start You Journey</button>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
